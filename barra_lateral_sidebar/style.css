@@ -1,0 +1,47 @@
+/*bloque principal contenedor de la barra lateral*/
+.barra_lateral{
+    width: 200px; /*se define un ancho fijo*/
+    padding: 15px; /*para el espacio interno*/
+    background-color: #f1f1f1; /*fondo gris*/
+    border: 1px solid #ccc; /*borde gris para delimitar*/
+    /*fuente sans-serif para legibilidad*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;  /*posicion absolute para fijar la barra en la pantalla*/
+    left: 20px; /*separacion desde el borde izquierda*/
+    top: 20px; /*separacion desde el borde superior*/
+}
+
+/*titulo de la barra lateral*/
+.barra_lateral__title{
+    font-size: 18px; /*tamaño de fuente legible*/
+    margin-bottom: 10px; /*margen inferior para separar del menu*/
+    color: #333; /*color gris oscuro*/
+    text-align: center; /*centra ek texto*/
+}
+
+/*lista sij estilo por defecto*/
+.barra_lateral__lista{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*elementos de lista*/
+.barra_lateral__item{
+    margin-bottom: 8px; /*margen ingerior para separar los enlaces verticalmente*/
+}
+
+/*enlaces*/
+.barra_lateral__link{
+    display: block; /*para que ocupe todo el ancho disponible*/
+    padding: 6px 10px; /*para area clickeabke comoda*/
+    background-color: #ddd; /*fondo gris claro*/
+    text-decoration: none; /*sin subrayado*/
+    color: #000; /*color negro*/
+    border-radius: 4px; /*bordes redondeados para suavisar*/
+}
+
+/*efecto hover para los enlaces*/
+.barra_lateral__link:hover{
+    background-color: #bbb; /*cambia el fondo a un gris mas oscuro para indicar interaccion*/
+}

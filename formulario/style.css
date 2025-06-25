@@ -1,0 +1,49 @@
+/*bloque principal contenedor del formulario*/
+.formulario-contacto{
+    width: 300px; /*ancho fijo para el formulario*/
+    margin: 20px auto; /*centra el formulario horizontalmente con margen vertical*/
+    padding: 15px; /*espacio interno*/
+    border: 1px solid #ccc; /*borde gris claro*/
+    background-color: #f8f8f8; /*fondo gris muy claro*/
+}
+
+/*Titulo del formulario*/
+.formulario-contacto__title{
+    font-size: 20px; /*tamaño de fuente grande*/
+    margin-bottom: 15px; /*espacio debajo del titulo*/
+    text-align: center; /*centra el texto*/
+    color: #333; /*color gris oscuro*/
+}
+
+/*Etiquetas de los campos*/
+.formulario-contacto__label{
+    display: block; /*hace que la etiqueta ocupe toda la linea*/
+    margin-bottom: 5px; /*espacio debajo de la etiqueta*/
+    color: #444; /*colo gris medio*/
+}
+
+/*Campos de entrada y area de texto*/
+.formulario-contacto__input,
+.formulario-contacto__textarea{
+    width: 100%; /*ocupa todo el ancho del formulario*/
+    padding: 8px; /*espacio interno para comodidad*/
+    margin-bottom: 15px; /*espacio debajo de cada campo*/
+    border: 1px solid #aaa; /*borde gris medio*/
+    box-sizing: border-box; /*incluye padding y borde en el ancho total*/
+}
+
+/*boton de envio*/
+.formulario-contacto__boton{
+    display: block; /*ocupa toda la linea*/
+    width: 100%; /* ancho completo del formulario*/
+    padding: 10px; /*espacio interno para un boton grande*/
+    background-color: #0066cc; /*fondo azul*/
+    color: white; /*texto blanco*/
+    border: none; /*sin borde*/
+    cursor: pointer; /*cambia el cursor al pasar sobre el boton*/
+}
+
+/*efecto hover para el boton*/
+.formulario-contacto__boton:hover{
+    background-color: #004c99; /*azul mas oscuro al pasar el mouse*/
+}

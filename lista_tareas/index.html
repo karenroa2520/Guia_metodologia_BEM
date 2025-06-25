@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <!-- contenedor principal de la lista de tareas -->
+    <div class="Lista-Tareas">
+        <!-- titulo dela lista -->
+        <h2 class="listas-tareas__title">Mis Tareas</h2>
+        <!-- lista no ordenada de tareas -->
+        <ul class="listas-tareas__items">
+            <li class="listas-tareas__item">
+                <!-- la casilla (Checkbox) es para marcar la tarea  -->
+                <input type="casilla" class="listas-tareas__casilla" id="tarea1">
+                <!-- etiqueta asociada al Checkbox (casilla) -->
+                <label for="tarea1" class="listas-tareas__label">Comprar leche</label>
+            </li>
+            <li class="listas-tareas__item">
+                <input type="casilla" class="listas-tareas__casilla" id="tarea2">
+                <label for="tarea2" class="listas-tareas__label">Estudiar HTML y CSS</label>
+            </li>
+            <li class="listas-tareas__item">
+                <input type="casilla" class="listas-tareas__casilla" id="tarea3">
+                <label for="tarea3" class="listas-tareas__label">Preparar presentación</label>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

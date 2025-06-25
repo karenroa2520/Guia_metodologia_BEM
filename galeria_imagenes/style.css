@@ -1,0 +1,32 @@
+/*bloque principal contenedor de la galeria*/
+.galeria-imagenes{
+    width: 320px; /*ancho fijo para la galeria*/
+    margin: 20px auto; /*centra horizontalmente con margen vertical*/
+    padding: 10px; /*espaciado interno*/
+    border: 1px solid #ccc; /*borde grus claro*/
+    background-color: #fefefe; /*fond blanco*/
+}
+
+/*titulo de la galeria*/
+.galeria-imagenes__title{
+    text-align: center; /*centra el texto*/
+    font-size: 20px; /*tamaño de fuente*/
+    margin-bottom: 10px; /*espaciado debajo del titulo*/
+    color: #222; /*color gris oscuro*/
+}
+
+/*contenedor de imagenes*/
+.galeria-imagenes__contenedor{
+    font-size: 0; /*elimina espacios entre imagenes inline-block*/
+    text-align: center; /*centra la simagenes horizontalmente*/
+}
+
+/*imagen individual*/
+.galeria-imagenes__image{
+    width: 100px; /*ancho fijo*/
+    height: 100px; /*alto fijo*/
+    margin: 5px; /*espacio alrededor de cada imagen*/
+    display: inline-block; /*permite que la simagenes esten en linea*/
+    border: 1px solid #aaa; /*borde gris claro */
+    vertical-align: top; /*alinea la parte superior de las imagenes*/
+}

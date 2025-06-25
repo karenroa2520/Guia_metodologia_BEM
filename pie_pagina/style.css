@@ -1,0 +1,57 @@
+/*bloqeu principal contenedor del pie de pagina*/
+.footer{
+    background-color: #222; /*fondo oscuro*/
+    color: #ccc; /*texto gris claro*/
+    padding: 20px; /*espaciado interno*/
+    font-family: sans-serif; /*fuente sans-serif*/
+    font-size: 14px; /*tamaño de fuente base*/
+}
+
+/*secciones dnetro del footer*/
+.footer__section{
+    display: inline-block; /*se muestran en linea horizontalmente*/
+    width: 30%; /*cada uno ocupa aproximadamente 30% de ancho*/
+    vertical-align: top; /*se alinean arriba*/
+    margin-right: 2%; /*tienen un margen derecho para separacion*/
+}
+
+/*ultima seccion ocupa todo el ancho*/
+.footer__section:last-child{
+    display: block; /*se muestra en bloque para ocupar toda la linea*/
+    width: 100%; /*ancho al 100%*/
+    text-align: center; /*centrado*/
+    margin-top: 20px; /*margen superior para separarla de las secciones anteriores*/
+}
+
+/*titulos d elas secciones*/
+.footer__title{
+    font-size: 16px; /*tamaño un poco mayor*/
+    color: #fff; /*blanco para destacar*/
+    margin-bottom: 10px; /*espaciado debajo*/
+}
+
+/*lsta de enlaces*/
+/*sin viletas ni  margenes ni padding para limpiar la lista*/
+.footer__lista{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*cada item de la lista tiene un margen inferior para separacion*/
+.footer__item{
+    margin-bottom: 5px;
+}
+
+/*enlaces dentro de footer*/
+.footer__link{
+    color: #ccc; /*color gris claro*/
+    text-decoration: none; /*sin subrayado para estilo limpio*/
+}
+
+/*estilo para el texto de copyright*/
+.footer__copyright{
+    color: #aaa; /*color gris mas claro*/
+    font-size: 13px; /*tamaño de feunte mas pequeño*/
+    margin: 0; /*sin margenn*/
+}

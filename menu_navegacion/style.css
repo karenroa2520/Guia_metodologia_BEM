@@ -1,0 +1,44 @@
+/*Bloque principal: barra de navegacion*/
+.navegacion-menu{
+    background-color: #333; /*fondo oscuro para la barra*/
+    padding: 10px 0; /*espacio arriba y abajo*/
+    overflow: hidden; /*limpia los floats si se usaran*/
+}
+
+/*Elemento: lista del menu elimina estilo por defecto*/
+.navegacion-menu__list{
+    list-style: none; /*quita viñetas*/
+    margin: 0; /*sin margen*/
+    padding: 0; /*sin padding*/
+    text-align: center; /*centra los elementos dentro*/
+}
+
+/*Elemento: items del menu que se muestran en linea*/
+.navegacion-menu__item{
+    display: inline-block; /*hace que los item esten en linea horizontal*/
+    margin: 0 10px; /*espacio horizontal entre items*/
+}
+
+/*Elemento: Enlaces para los estilos el menu*/
+.navegacion-menu__link{
+    color: #fff; /*color blanco para el texto*/
+    text-decoration: none; /*quita subrayado*/
+    font-weight: bold; /*texto en negrita*/
+    padding: 6px 12px; /*espacio interno parqa hacer el area clickeable mas grande*/
+    display: inline-block; /*permite aplicar padding y background*/
+    background-color: transparent; /*fondo transparente por defecto*/
+    transition: background-color 0.3s; /*transicion suave para el hover*/
+}
+
+/*efecto hover para los enlaces*/
+.navegacion-menu__link:hover{
+    background-color: #555; /*cambia el fondo a un gris mas claro*/
+    border-radius: 4px; /* bordes redondeados para suavizar*/
+}
+
+/*modificador: activo aplica un fondo azul y bordes redondeads para destacar
+el enlace actualmente seleccionado*/
+.navegacion-menu__link--active{
+    background-color: #007acc; /*fondo azul para indicar el estado activo*/
+    border-radius: 4px; /*bordes redondeados para un diseño mas suave*/
+}

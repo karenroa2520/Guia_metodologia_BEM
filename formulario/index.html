@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <!-- formulario de contacto principal -->
+    <form class="formulario-contacto" action="#" method="correo">
+        <!-- titulo del formulario -->
+        <h2 class="formulario-contacto__title">Contáctanos</h2>
+
+        <!-- etiqueta y campo para el nombre -->
+        <label class="formulario-contacto__label" for="name">Nombre</label>
+        <input class="formulario-contacto__input" type="text" id="name" required>
+
+        <!-- etiqueta y campo par ael correo electronico -->
+        <label class="formulario-contacto__label" for="email">Correo Electronico</label>
+        <input class="formulario-contacto__input" type="email" id="email" name="email" required>
+
+        <!-- etiqeuta y area de texto para el mensaje -->
+        <label class="formulario-contacto__label" for="mensaje">Mensaje</label>
+        <textarea class="formulario-contacto__textarea" id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <!-- boton para enviar el formulario -->
+        <button class="formulario-contacto__boton" type="submit">Enviar</button>
+    </form>
+</body>
+</html>

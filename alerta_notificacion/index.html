@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alerta o notificación</title>
+</head>
+<body>
+    <!-- contenedor base para una alerta con modificador par aexito -->
+    <div class="alerta-notificacion alerta-notificacion--success">
+        <!-- icono de la alerta -->
+        <span class="alerta-notificacion_icon">🎈</span>
+        <!-- texto descriptivo de la alerta -->
+        <p class="alerta-notificacion__text">¡Operación realizada con éxito!</p>
+    </div>
+
+    <!-- contendor base para una alerta con modificador para error -->
+    <div class="alerta-notificacion alerta-notificacion--error">
+        <span class="alerta-notificacion__icon">🛟</span>
+        <p class="alerta-notificacion__text">Ha ocurrido un error, Intenta de nuevo.</p>
+    </div>
+
+    <!-- contenedor base para una alerta con modificador para advertencia -->
+    <div class="alerta-notificacion alerta-notificacion--warning">
+        <span class="alerta-notificacion__icon">🍥</span>
+        <p class="alerta-notificacion__text">Advertencia: los cambios no se han guardado.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+/*bloque base contenedor de la alerta o notificacion*/
+.alerta-notificacion{
+    width: 300px; /*ancho fijo para todas las alertas*/
+    margin: 15px auto; /*centrado horizontalmente con margen verticalmente*/
+    padding: 10px; /*espaciado interno*/
+    border: 1px solid; /*borde que cambia segun el tipo de alerta*/
+    background-color: #f5f5f5; /*fondo neutro por defecto*/
+    font-family: 'Courier New', Courier, monospace; /*fuente monoespaciada para el estilo*/
+}
+
+/*Modificadores estilos especificos segun tipo de alerta*/
+/*borde y fondo en tonos verdes, texto en verde oscuro*/
+.alerta-notificacion--success{
+    border-color: #28a745; 
+    background-color: #e6f4ae;
+    color: #155724;
+}
+
+/*borde y fondo en tonos rojos, texto en rojo oscuro*/
+.alerta-notificacion--error{
+    border-color: #dc3545;
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/*advertencia borde y fondo en tonos amarillos, texto en marron*/
+.alerta-notificacion--warning{
+    border-color: #ffc107;
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+/*Icono dentro de la alerta*/
+.alerta-notificacion__icon{
+    display: inline-block; /*para alinearlo horizontalmente junto al texto*/
+    margin-right: 8px; /*para separar el icono del texto*/
+    vertical-align: middle; /*para centrar verticalmente con el texto*/
+}
+
+/*texto de la alerta*/
+.alerta-notificacion__text{
+    display: inline-block; /*para que el texto quede en linea con el icono*/
+    vertical-align: middle; /*para alineacion vertical*/
+    margin: 0; /*para eliminar margen por defecto*/
+    font-size: 14px; /*para tamaño legible*/
+}

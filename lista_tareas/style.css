@@ -1,0 +1,51 @@
+/*bloque principal contenedor de la lista de tareas*/
+.Lista-Tareas{
+    width: 300px; /*ancho fijo*/
+    margin: 20px auto; /*centrado horizontal con margen vertical*/
+    padding: 15px; /*espaciado interno*/
+    border: 1px solid #bbb; /*borde gris claro*/
+    background-color: #f9f9f9; /*fondo muy claro*/
+}
+
+/*titulo de la lista*/
+.lista-tareas__title{
+    font-size: 20px; /*tamaño de fuente */
+    text-align: center; /*centrado del texto*/
+    margin-bottom: 15px; /*espacio debajo*/
+    color: #222; /*color gris oscuro*/
+}
+
+/*lista de tareas elimina estilos por defecto*/
+.lista-tareas__items{
+    list-style: none; /*sin viñetas*/
+    padding: 0; /*sin padding*/
+    margin: 0; /*sin margin*/
+}
+
+/*cada item de la lista*/
+.lista-tareas__item{
+    padding: 8px; /*espacio intero*/
+    border-bottom: 1px solid #ddd; /*linea de divisoria*/
+}
+
+/*casilla (Checkbox ) alineado con la etiqueta*/
+.lista-tareas__casilla{
+    display: inline-block; /*permite alineacion horizontal con control de dimensiones y margenes*/
+    vertical-align: middle; /*centra verticalmente respecto a la etiqueta*/
+    margin-right: 8px; /*espacio entre casilla y texto*/
+}
+
+/*etiqueta de texto de la tarea*/
+.lista-tareas__label{
+    display: inline-block; /*permite alineacion horizontalmente y control de tamaño*/
+    vertical-align: middle; /*centra verticalmente respecto a la casilla/
+    font-size: 16px; /*tamaño de fuente legible*/
+    color: #333; /*color gris oscuro para el texto*/
+}
+
+/*estilo de etiqueta marcado*/
+.lista-tareas__casilla:checked,
+.lista-tareas__label{
+    text-decoration: line-through; /*tacha el texto*/
+    color: #888; /*color gris para indicar completado*/
+}
