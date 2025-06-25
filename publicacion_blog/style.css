@@ -1,0 +1,79 @@
+/* 
+ Bloque principal contenedor de la publicación 
+ Establece los límites y el estilo general de cada publicación del blog.
+*/
+.publicacion_blog {
+    width: 90%; /* Ocupa el 90% del ancho del contenedor padre */
+    max-width: 600px; /* Limita el ancho máximo a 600px en pantallas grandes */
+    margin: 30px auto; /* Centrado horizontal con márgenes verticales de 30px */
+    border: 1px solid #ddd; /* Borde gris claro para delimitar visualmente */
+    background-color: #61dab5; /* Color de fondo verde menta suave */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Tipografía sans-serif para mejor legibilidad */
+}
+
+/* 
+ Título de la publicación 
+ Se destaca con un tamaño grande y separación del contenido siguiente.
+*/
+.publicacion_blog_title {
+    font-size: 24px; /* Tamaño de fuente grande para destacar el título */
+    margin-bottom: 10px; /* Espacio inferior para separarlo del siguiente elemento */
+    color: #000000; /* Color negro para una alta legibilidad */
+}
+
+/* 
+ Información del autor y la fecha 
+ Se muestra en tamaño reducido con color contrastante.
+*/
+.publicacion_blog__meta {
+    font-size: 14px; /* Tamaño pequeño para información secundaria */
+    color: #ffffff; /* Color blanco para destacar sobre el fondo */
+    margin-bottom: 15px; /* Espacio inferior para separación visual */
+}
+
+/* 
+ Estilo del nombre del autor 
+ Se presenta en negrita y color llamativo.
+*/
+.publicacion_blog_autor {
+    font-weight: bold; /* Texto en negrita para dar énfasis */
+    color: #e3f300; /* Amarillo neón para destacar visualmente */
+}
+
+/* 
+ Estilo de la fecha de publicación 
+ Se presenta en cursiva para diferenciarlo del resto del texto.
+*/
+.publicacion_blog_fecha {
+    font-style: italic; /* Cursiva para una distinción visual clara */
+}
+
+/* 
+ Imagen destacada de la publicación 
+ Se adapta al ancho del contenedor manteniendo proporción.
+*/
+.publicacion_blog__image {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    border: 1px solid #ccc; /* Borde gris claro para enmarcar la imagen */
+    margin-bottom: 15px; /* Separación visual respecto al contenido posterior */
+}
+
+/* 
+ Contenido de la publicación 
+ Estilo general del texto del cuerpo de la publicación.
+*/
+.publicacion_blog__contenido {
+    font-size: 16px; /* Tamaño de fuente legible */
+    line-height: 1.6; /* Interlineado cómodo para la lectura */
+    color: #444; /* Color gris oscuro suave para facilitar la lectura */
+}
+
+/* 
+ Párrafos dentro del contenido 
+ Se separan entre sí con margen y se justifica el texto.
+*/
+.publicacion_blog_parrafo {
+    margin-bottom: 15px; /* Espacio entre párrafos */
+    text-align: justify; /* Alineación justificada para una presentación limpia */
+}

@@ -1,0 +1,113 @@
+/* Contenedor principal del resumen del carrito */
+/* Establece un ancho fijo y centra el contenedor, 
+   con espacio interno, borde gris oscuro y fondo blanco, 
+   utilizando una fuente serif elegante */
+.resumen_carrito {
+    width: 300px; /* Ancho fijo del contenedor */
+    margin: 20px auto; /* Centrado horizontal con margen vertical */
+    padding: 15px; /* Espacio interno alrededor del contenido */
+    border: 1px solid #888; /* Borde de color gris oscuro */
+    background-color: #e8f0f2; /* Fondo en un tono azul muy claro */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Tipo de letra serif */
+}
+
+/* Título del resumen */
+/* Tamaño de fuente adecuado, 
+   margen inferior para separar del contenido, 
+   texto centrado y color azul oscuro */
+.resumen_carrito__title {
+    font-size: 20px; /* Tamaño de fuente legible */
+    margin-bottom: 10px; /* Espacio inferior para separación */
+    text-align: center; /* Alineación centrada del texto */
+    color: #2c3e50; /* Color azul oscuro */
+}
+
+/* Lista de productos */
+/* Sin viñetas ni márgenes, 
+   margen inferior para separar del total */
+.resumen_carrito__lista {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+    margin: 0 0 10px 0; /* Margen inferior para separación */
+}
+
+/* Elemento del carrito */
+/* Espacio vertical para separar elementos, 
+   borde inferior claro para división, 
+   tamaño de fuente legible */
+.resumen_carrito__item {
+    padding: 6px 0; /* Espacio vertical */
+    border-bottom: 1px solid #ddd; /* Borde inferior claro */
+    font-size: 14px; /* Tamaño de fuente adecuado */
+}
+
+/* Nombre del producto */
+/* Se muestra en línea con un ancho del 60%, 
+   color gris oscuro para el texto */
+.resumen_carrito__nombre {
+    display: inline-block; /* Se muestra en línea */
+    width: 60%; /* Ancho del 60% */
+    color: #555; /* Color gris oscuro */
+}
+
+/* Precio del producto */
+/* Se muestra en línea con un ancho del 38%, 
+   alineado a la derecha, 
+   color negro para destacar */
+.resumen_carrito__precio {
+    display: inline-block; /* Se muestra en línea */
+    width: 38%; /* Ancho del 38% */
+    text-align: right; /* Alineación a la derecha */
+    color: #e74c3c; /* Color rojo para destacar */
+}
+
+/* Total a pagar */
+/* Borde superior para separación, 
+   espacio y margen para separación, 
+   texto en negrita y tamaño ligeramente mayor, 
+   alineación a la derecha */
+.resumen_carrito__total {
+    border-top: 1px solid #bbb; /* Borde superior */
+    padding-top: 8px; /* Espacio superior */
+    margin-top: 10px; /* Margen superior */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 15px; /* Tamaño de fuente mayor */
+    text-align: right; /* Alineación a la derecha */
+}
+
+/* Etiqueta del total */
+/* Flotada a la izquierda para separación del monto, 
+   color gris oscuro */
+.resumen_carrito__label {
+    float: left; /* Flotante a la izquierda */
+    color: #333; /* Color gris oscuro */
+}
+
+/* Detalle del total */
+/* Color verde para llamar la atención */
+.resumen_carrito__detalle {
+    color: #27ae60; /* Color verde */
+}
+
+/* Botón de pago */
+/* Ocupa todo el ancho, 
+   margen superior para separación, 
+   espacio para comodidad, 
+   fondo azul, texto blanco, 
+   sin borde y tamaño legible */
+.resumen_carrito__boton {
+    display: block; /* Se muestra como bloque */
+    width: 100%; /* Ancho completo */
+    margin-top: 15px; /* Margen superior */
+    padding: 8px; /* Espacio interno */
+    background-color: #3498db; /* Fondo azul */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    font-size: 14px; /* Tamaño de fuente legible */
+}
+
+/* Efecto hover para el botón */
+/* Fondo azul oscuro al pasar el mouse para mejor interacción */
+.resumen_carrito__boton:hover {
+    background-color: #2980b9; /* Fondo azul oscuro */
+}

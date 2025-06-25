@@ -1,0 +1,56 @@
+/* Contenedor principal del área de selección */
+/* Define un ancho fijo y centra el contenedor, 
+   utilizando una fuente sans-serif y alineación centrada */
+.selector-categorias {
+    width: 320px; /* Ancho fijo del contenedor */
+    margin: 20px auto; /* Centrado horizontal con margen vertical */
+    font-family: Arial, Helvetica, sans-serif; /* Tipo de letra sans-serif */
+    text-align: center; /* Alineación centrada del texto */
+}
+
+/* Título del selector */
+/* Tamaño de fuente adecuado, 
+   margen inferior para separación y color gris oscuro */
+.selector-categorias__title {
+    font-size: 20px; /* Tamaño de fuente legible */
+    margin-bottom: 15px; /* Espacio inferior para separación */
+    color: #444; /* Color gris oscuro */
+}
+
+/* Lista de categorías */
+/* Elimina viñetas y márgenes, 
+   y establece el tamaño de fuente a cero para evitar espacios entre botones */
+.selector-categorias__list {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+    margin: 0; /* Sin margen */
+    font-size: 0; /* Elimina espacio entre botones */
+}
+
+/* Elementos de la lista como botones */
+/* Permite que los elementos se alineen horizontalmente y agrega separación */
+.selector-categorias__item {
+    display: inline-block; /* Alineación horizontal */
+    margin: 5px; /* Espacio entre botones */
+}
+
+/* Botón de categoría */
+/* Estilo visual con colores cálidos, 
+   padding para un tamaño cómodo, 
+   borde redondeado y cursor pointer para indicar que es clickeable */
+.selector-categorias__boton {
+    font-size: 15px; /* Tamaño de fuente adecuado */
+    padding: 10px 15px; /* Espacio interno */
+    border: 1px solid #28a745; /* Borde verde */
+    background-color: #e8f5e9; /* Fondo verde claro */
+    color: #28a745; /* Color verde */
+    cursor: pointer; /* Indica que es clickeable */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Efecto hover para los botones */
+/* Cambia el fondo a verde y el texto a blanco al pasar el mouse */
+.selector-categorias__boton:hover {
+    background-color: #28a745; /* Fondo verde */
+    color: #fff; /* Texto blanco al pasar el mouse */
+}

@@ -1,0 +1,43 @@
+/* Contenedor principal del reproductor de video */
+.reproductor_video {
+    width: 90%; /* Ocupa el 90% del ancho del elemento padre */
+    max-width: 500px; /* Ancho máximo para dispositivos grandes */
+    margin: 20px auto; /* Centrado horizontal con margen vertical */
+    padding: 10px; /* Espacio interno alrededor del contenido */
+    background-color: #e8f0f2; /* Fondo en un tono blanco azulado muy claro */
+    border: 1px solid #b0c4de; /* Borde de color azul claro */
+    font-family: Arial, Helvetica, sans-serif; /* Tipo de letra sans-serif */
+}
+
+/* Título del reproductor */
+.reproductor_video__title {
+    font-size: 20px; /* Tamaño de fuente destacado */
+    text-align: center; /* Alineación centrada del texto */
+    margin-bottom: 10px; /* Espacio inferior para separar del contenido siguiente */
+    color: #2c3e50; /* Color azul oscuro */
+}
+
+/* Contenedor del video */
+.reproductor_video__marco {
+    text-align: center; /* Alinea el video al centro */
+}
+
+/* Video */
+.reproductor_video__video {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 100%; /* No excede el tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la altura */
+    border: 1px solid #7f8c8d; /* Borde gris oscuro */
+}
+
+/* Descripción del video */
+.reproductor_video__descripcion {
+    margin-top: 10px; /* Espacio superior para separar del video */
+}
+
+/* Texto de la descripción */
+.reproductor_video__texto {
+    font-size: 14px; /* Tamaño de fuente adecuado para lectura */
+    color: #555; /* Color gris oscuro */
+    text-align: justify; /* Justificación del texto para una mejor presentación */
+}

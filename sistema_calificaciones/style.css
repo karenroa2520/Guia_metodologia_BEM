@@ -1,0 +1,51 @@
+:root {
+    --color-fondo: #f0f8ff; /* Fondo claro */
+    --color-titulo: #2c3e50; /* Azul oscuro para el título */
+    --color-estrella-vacia: #ccc; /* Gris claro para estrellas vacías */
+    --color-estrella-llena: #ffcc00; /* Amarillo dorado para estrellas llenas */
+    --color-texto: #666; /* Gris medio para el texto */
+}
+
+/* Contenedor principal de la valoración */
+.valoracion {
+    width: 250px; /* Ancho fijo */
+    margin: 20px; /* Margen alrededor */
+    text-align: center; /* Centra el contenido */
+    font-family: 'Times New Roman', Times, serif; /* Fuente serif elegante */
+    background-color: var(--color-fondo); /* Fondo claro */
+    padding: 15px; /* Espacio interno */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Título de la valoración */
+.valoracion__titulo {
+    font-size: 20px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Espacio inferior */
+    color: var(--color-titulo); /* Color azul oscuro */
+}
+
+/* Contenedor de estrellas */
+.valoracion__estrellas {
+    font-size: 0; /* Elimina espacio entre estrellas */
+    margin-bottom: 8px; /* Espacio entre estrellas y texto */
+}
+
+/* Estrellas */
+.valoracion__estrella {
+    display: inline-block; /* Para que estén en línea */
+    font-size: 24px; /* Tamaño visible */
+    color: var(--color-estrella-vacia); /* Color gris claro para estrellas vacías */
+    margin: 0 2px; /* Margen horizontal para separación */
+    cursor: pointer; /* Cursor pointer para indicar interactividad */
+}
+
+/* Estrellas llenas */
+.valoracion__estrella--llena {
+    color: var(--color-estrella-llena); /* Color amarillo dorado */
+}
+
+/* Texto debajo */
+.valoracion__texto {
+    font-size: 14px; /* Tamaño de fuente legible */
+    color: var(--color-texto); /* Color gris medio */
+}

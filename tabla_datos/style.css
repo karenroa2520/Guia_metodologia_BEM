@@ -1,0 +1,53 @@
+:root {
+    --color-fondo: #ffffff; /* Fondo blanco */
+    --color-titulo: #333333; /* Gris oscuro para el título */
+    --color-encabezado: #e0f7fa; /* Azul claro para encabezados */
+    --color-fila-par: #f1f8e9; /* Verde muy claro para filas pares */
+    --color-borde: #b0bec5; /* Gris suave para bordes */
+}
+
+/* Contenedor principal de la tabla */
+.tabla-datos {
+    width: 90%; /* Ancho del 90% del contenedor padre */
+    max-width: 600px; /* Ancho máximo para pantallas grandes */
+    margin: 20px auto; /* Centrado horizontal */
+    font-family: 'Arial', sans-serif; /* Fuente sans-serif */
+}
+
+/* Título de la tabla */
+.tabla-datos__titulo {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 10px; /* Espacio debajo del título */
+    font-size: 22px; /* Tamaño de fuente grande */
+    color: var(--color-titulo); /* Color gris oscuro */
+}
+
+/* Tabla general */
+.tabla-datos__tabla {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    border-collapse: collapse; /* Elimina espacio entre bordes de celdas */
+    border: 1px solid var(--color-borde); /* Borde general de la tabla */
+}
+
+/* Encabezados de columna */
+.tabla-datos__encabezado {
+    background-color: var(--color-encabezado); /* Fondo azul claro */
+}
+
+/* Celdas de encabezado */
+.tabla-datos__celda {
+    padding: 10px; /* Espacio interno */
+    border: 1px solid var(--color-borde); /* Borde gris suave */
+    text-align: left; /* Alineación a la izquierda */
+}
+
+/* Filas pares para alternar color de fondo */
+.tabla-datos__fila:nth-child(even) {
+    background-color: var(--color-fila-par); /* Fondo verde muy claro */
+}
+
+/* Celdas de datos */
+.tabla-datos__celda {
+    padding: 10px; /* Espacio interno */
+    border: 1px solid var(--color-borde); /* Borde gris suave */
+}

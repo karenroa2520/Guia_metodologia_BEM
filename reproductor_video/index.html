@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reproductor de Video</title>
+</head>
+<body>
+    <!-- contenedor para el reproductor de video -->
+    <div class="reproductor_video">
+        <!-- titulo del reproductor de video -->
+        <h2 class="reproductor_video__title">Video Flores</h2>
+
+        <!-- marco del video -->
+        <div class="reproductor_video__marco">
+            <!-- elemento video con controles nativos -->
+            <video class="reproductor_video__video" controls>
+                <source src="video/video.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video. Lo sentimos :C
+            </video>
+        </div>
+
+        <!-- informacion del video -->
+        <div class="reproductor_video__descripcion">
+            <p class="reproductor_video__texto">Este es un video de demostración la calidad y la bellezas 
+                de las flores.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
